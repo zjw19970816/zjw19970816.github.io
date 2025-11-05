@@ -114,6 +114,7 @@ div#toptitle {
 }
 
 /* Reduce space if we begin the page with a title. */
+div#toptitle+h1,
 div#toptitle+h2,
 div#toptitle+h3 {
     margin-top: -0.7em;
